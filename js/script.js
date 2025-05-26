@@ -1,9 +1,9 @@
 "use strict";
 
-let userInput=prompt("What is your name?");
-if (userInput === "John") {
-    alert("Hello " + userInput + "! How are you?");
-}
-else {
-    alert("Hello " + userInput + "! Happy to see you");
+let name=prompt("What is your name?");
+if (name) {
+    let showGreeting = confirm("Do you want to see a greetings?");
+    if (showGreeting) {
+        alert("Hello " + name + "!");
+    }
 }
