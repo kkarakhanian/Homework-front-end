@@ -8,7 +8,7 @@ const isUserVerified = true // This const indicates that the user is verified in
 console.log(typeof isUserVerified)
 const registrationDate = new Date(2024, 8, 17) // This const indicates that the user  is registered on the specified date
 console.log(typeof registrationDate)
-let UserCardNumber = BigInt(4627051318145941) // This const indicates that user has oun card number. It could be change after a while
+let UserCardNumber = BigInt(4627051318145941) // This const indicates that user has oun card number. It could be changed after a while
 console.log(typeof UserCardNumber)
 let UserPromo = "SPRING2025"// This const indicates user's promocode
 console.log(typeof UserPromo)
