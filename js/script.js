@@ -1,38 +1,38 @@
 "use strict";
 
-let UserName;
-UserName=prompt('What is your name?');
-console.log(typeof UserName);
-console.log(`Username: ${UserName}`);
+let userName;
+userName=prompt('What is your name?');
+console.log(typeof userName);
+console.log(`Username: ${userName}`);
 
-let Age;
-Age = prompt('Write your age');
-console.log(typeof Number(Age));
-console.log(`Age: ${Age}`)
+let age;
+age = prompt('Write your age');
+console.log(typeof Number(age));
+console.log(`Age: ${age}`)
 
-let UserAcceptance;
-UserAcceptance = confirm('Do you want to take part in our promo');
-console.log(typeof UserAcceptance);
-console.log(UserAcceptance);
-if (UserAcceptance) {
+let userAcceptance;
+userAcceptance = confirm('Do you want to take part in our promo');
+console.log(typeof userAcceptance);
+console.log(userAcceptance);
+if (userAcceptance) {
     alert('Thanks for your help')
 } else {
     alert('You chosen No')
 }
 
-const UserId = 1895043789053n;
-let BonusCode = null;
-let SecondName;
+const userId = 1895043789053n;
+let bonusCode = null;
+let secondName;
 
 alert(
-    `Hello: ${UserName}!
-Your age: ${Age}
-Your status ${UserAcceptance}`
+    `Hello: ${userName}!
+Your age: ${age}
+Your status ${userAcceptance}`
 )
 
-console.log ("Name", UserName, typeof UserName);
-console.log("Age", Age, typeof Number(Age));
-console.log("User status", UserAcceptance, typeof UserAcceptance);
-console.log("User ID", UserId, typeof UserId);
-console.log("Bonus Code", BonusCode, typeof BonusCode);
-console.log("SecondName", SecondName, typeof SecondName);
+console.log ("Name", userName, typeof userName);
+console.log("Age", age, typeof Number(age));
+console.log("User status", userAcceptance, typeof userAcceptance);
+console.log("User ID", userId, typeof userId);
+console.log("Bonus Code", bonusCode, typeof bonusCode);
+console.log("SecondName", secondName, typeof secondName);
