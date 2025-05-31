@@ -1,14 +1,11 @@
 "use strict";
 
-let name;
-name=prompt('What is your name?');
+let name=prompt('What is your name?');
 
-let age;
-age=prompt('How old are you?')
+let age=prompt('How old are you?')
 age=Number(age);
 
-let notifications;
-notifications=confirm('Do you want to get notifications?')
+let notifications=confirm('Do you want to get notifications?')
 
 const userId=9780652917n;
 let lastLogin=null;
