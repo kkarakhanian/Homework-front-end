@@ -2,8 +2,7 @@
 
 let name=prompt('What is your name?');
 
-let age=prompt('How old are you?')
-age=Number(age);
+let age=Number(prompt('How old are you?'))
 
 let notifications=confirm('Do you want to get notifications?')
 
