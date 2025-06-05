@@ -11,7 +11,7 @@ if (age === null || age === '' || isNaN(age)) {
 }
 
 
-let city = prompt('What city do you live in?');
+const city = prompt('What city do you live in?');
 if (city === null || city === '') {
     alert('It is a pity you did not want to enter your city');
 } else if (city === 'Kyiv') {
@@ -29,7 +29,7 @@ if (city === null || city === '') {
 }
 
 
-let sport = prompt('What sport do you like?');
+const sport = prompt('What sport do you like?');
 if (sport === null || sport === '') {
     alert('It is a pity you did not want to enter your sport');
 } else if (sport === 'Football') {
